@@ -3,8 +3,7 @@
 
 install_visual_studio_code() {
     brew update
-    brew tap caskroom/cask
-    brew cask search visual-studio-code
+    brew tap homebrew/cask
     brew cask install visual-studio-code 
 }
 

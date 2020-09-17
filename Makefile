@@ -1,5 +1,8 @@
+setup:
+	make install-brew && make install-zsh
+
 install-all:
-	make install-brew && make install-zsh && make install-android && make install-visual-studio-code
+	make install-android && make install-visual-studio-code && make install-docker
 
 install-brew:
 	chmod +x ./homebrew/install.sh && ./homebrew/install.sh
@@ -12,3 +15,10 @@ install-zsh:
 
 install-visual-studio-code:
 	chmod +x ./visual-studio-code/install.zsh && ./visual-studio-code/install.zsh
+
+install-docker:
+	chmod +x ./docker/install.zsh && ./docker/install.zsh
+
+install-git:
+	chmod +x ./git/install.zsh && ./git/install.zsh
+	
