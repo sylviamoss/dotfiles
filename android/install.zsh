@@ -1,5 +1,5 @@
 #!/bin/bash
-clear 
+
 
 # Original https://github.com/Khan/khan-dotfiles/blob/master/mac-android-setup.sh
 

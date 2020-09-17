@@ -1,9 +1,8 @@
 #!/bin/sh
 #
-# OhMyZsh
-#
 
-echo "Installing Zsh"
+
+echo "Installing OhMyZsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
 exit 0
