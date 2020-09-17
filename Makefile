@@ -2,7 +2,7 @@ setup:
 	make install-brew && make install-zsh
 
 install-all:
-	make install-android && make install-visual-studio-code && make install-docker
+	make install-git && make install-android && make install-visual-studio-code && make install-docker && make install-intellij && make install-keepingyouawake
 
 install-brew:
 	chmod +x ./homebrew/install.sh && ./homebrew/install.sh
@@ -21,4 +21,15 @@ install-docker:
 
 install-git:
 	chmod +x ./git/install.zsh && ./git/install.zsh
-	
+
+install-intellij:
+	chmod +x ./intellij/install.zsh && ./intellij/install.zsh
+
+install-keepingyouawake:
+	chmod +x ./keepingyouawake/install.zsh && ./keepingyouawake/install.zsh
+
+install-postman:
+	chmod +x ./postman/install.zsh && ./postman/install.zsh
+
+install-go:
+	chmod +x ./go/install.zsh && ./go/install.zsh
