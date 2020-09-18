@@ -2,7 +2,7 @@ setup:
 	make install-brew && make install-zsh
 
 install-all:
-	make install-git && make install-android && make install-visual-studio-code && make install-docker && make install-intellij && make install-keepingyouawake
+	make install-git && make install-android && make install-visual-studio-code && make install-docker && make install-intellij && make install-keepingyouawake 
 
 install-brew:
 	chmod +x ./homebrew/install.sh && ./homebrew/install.sh
