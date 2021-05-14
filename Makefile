@@ -1,6 +1,6 @@
 .PHONY: install-brew install-zsh 
 
-install-all: install-go install-visual-studio-code install-docker install-keepingyouawake install-chrome install-backupandsync install-iterm install-bitwarden install-authy install-autojump
+install-all: install-go install-visual-studio-code install-docker install-keepingyouawake install-chrome install-backupandsync install-iterm install-bitwarden install-authy install-autojump install_robot3t
 
 install-brew:
 	chmod +x ./homebrew/install.sh && ./homebrew/install.sh
@@ -40,3 +40,12 @@ install-bitwarden:
 
 install-authy:
 	chmod +x ./authy/install.zsh && ./authy/install.zsh
+
+install-robot3t:
+	chmod +x ./robot3t/install.zsh && ./robot3t/install.zsh
+
+install-whatsapp:
+	chmod +x ./whatsapp/install.zsh && ./whatsapp/install.zsh
+
+install-telegram:
+	chmod +x ./telegram/install.zsh && ./telegram/install.zsh
