@@ -3,8 +3,7 @@
 
 install_postman() {
     brew update
-    brew tap homebrew/cask
-    brew cask install postman
+    brew install --cask postman
 }
 
 echo "Installing Postman"

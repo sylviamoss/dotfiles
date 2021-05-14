@@ -3,8 +3,7 @@
 
 install_chrome() {
     brew update
-    brew tap homebrew/cask
-    brew cask install google-chrome
+    brew install --cask google-chrome
 }
 
 echo "Installing Chrome"

@@ -3,8 +3,7 @@
 
 install_visual_studio_code() {
     brew update
-    brew tap homebrew/cask
-    brew cask install visual-studio-code 
+    brew install --cask visual-studio-code
 }
 
 echo "Installing Visual Studio Code"

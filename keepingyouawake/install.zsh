@@ -3,8 +3,7 @@
 
 install_keepingyouawake() {
     brew update
-    brew tap homebrew/cask
-    brew cask install keepingyouawake
+    brew install --cask keepingyouawake 
 }
 
 echo "Installing KeepingYouAwake"

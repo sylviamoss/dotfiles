@@ -18,7 +18,3 @@ echo "export PATH='$PATH:${GOPATH}/bin:${GOROOT}/bin'" >> ~/.zshrc
 source ~/.zshrc
 
 install_go
-
-go get golang.org/x/tools/cmd/godoc
-go get golang.org/x/lint/golint
-go get github.com/ethanpil/sheret/src
